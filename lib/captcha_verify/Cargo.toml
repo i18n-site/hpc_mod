@@ -1,0 +1,18 @@
+[package]
+name = "captcha_verify"
+version = "0.1.0"
+edition = "2024"
+license = "MulanPSL-2.0"
+repository = "https://atomgit.com/i18n/i18n.git"
+homepage = "https://atomgit.com/i18n/i18n/tree/dev/lib/captcha_verify"
+description = "captcha_verify"
+
+[dependencies]
+aok = "0.1.17"
+click_captcha = { version = "0.1.31", features = ["verify"] }
+pc = "0.1.12"
+xbin = "0.1.6"
+xkv = { version = "0.1.44", features = ["r"] }
+
+[dev-dependencies]
+aok = "0.1.17"

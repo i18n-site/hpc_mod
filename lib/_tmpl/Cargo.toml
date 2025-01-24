@@ -1,0 +1,16 @@
+[package]
+name = "_tmpl"
+version = "0.1.0"
+edition = "2024"
+license = "MulanPSL-2.0"
+repository = "https://github.com/i18n-site/mod.git"
+homepage = "https://github.com/i18n-site/mod/tree/dev/lib/_tmpl"
+description = "_tmpl"
+keywords = ["hpc", "hpc-helper"]
+
+[package.metadata.docs.rs]
+all-features = true
+
+[dependencies]
+aok = "0.1.17"
+tracing = "0.1.41"

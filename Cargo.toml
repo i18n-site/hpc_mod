@@ -1,0 +1,27 @@
+[workspace]
+members = [
+  "lib/_tmpl",
+  "lib/captcha_verify",
+  "lib/iat",
+  "mod/auth_",
+  "mod/captcha_",
+  "mod/user_",
+]
+resolver = "2"
+
+[profile.release]
+lto = true
+opt-level = 3
+incremental = true
+codegen-units = 1
+overflow-checks = false
+debug-assertions = false
+# panic = 'abort'
+# strip = false
+
+[profile.dev]
+split-debuginfo = "unpacked"
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
