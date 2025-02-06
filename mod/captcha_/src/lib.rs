@@ -1,10 +1,10 @@
 use aok::Result;
 use click_captcha::ICO_LI;
-use rand::{rngs::StdRng, Rng, SeedableRng};
+use rand::{Rng, SeedableRng, rngs::StdRng};
 use xbin::concat;
 use xkv::{
-  fred::{interfaces::KeysInterface, types::Expiration},
   R,
+  fred::{interfaces::KeysInterface, types::Expiration},
 };
 
 const SIZE: u32 = 350;
