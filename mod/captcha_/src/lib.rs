@@ -20,9 +20,9 @@ pub struct Captcha {
 pub async fn captcha() -> Result<Captcha> {
   let (img, meta) = click_captcha::webp(SIZE, SIZE, ICO_LI)?;
 
-  let mut rng = StdRng::from_entropy();
+  let mut rng = StdRng::from_rng(&mut rand::rng());
 
-  let id: [u8; 16] = rng.r#gen();
+  let id: [u8; 16] = rng.random();
 
   R.set::<(), _, _>(
     concat!(R_CAPTCHA, id),

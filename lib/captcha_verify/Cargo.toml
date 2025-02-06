@@ -9,7 +9,7 @@ description = "captcha_verify"
 
 [dependencies]
 aok = "0.1.17"
-click_captcha = { version = "0.1.32", features = ["verify"] }
+click_captcha = { version = "0.1.34", features = ["verify"] }
 pc = "0.1.12"
 xbin = "0.1.6"
 xkv = { version = "0.1.44", features = ["r"] }

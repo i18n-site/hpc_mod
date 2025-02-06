@@ -265,9 +265,9 @@ checksum = "fd16c4719339c4530435d38e511904438d07cce7950afa3718a84ac36c10e89e"
 
 [[package]]
 name = "click_captcha"
-version = "0.1.32"
+version = "0.1.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "62df04ec98f707b6b11a02e60fa11d440eb180d3186cb43aacfd89e8e5d78fd4"
+checksum = "67a69bb13c393e2f570c921b9e7ed1ca0e4b88889945db8a0a0cf0ee6b01d182"
 dependencies = [
  "aok",
  "derive_more",

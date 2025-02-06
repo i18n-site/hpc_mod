@@ -10,7 +10,7 @@ keywords = ["hpc", "mod"]
 
 [dependencies]
 aok = "0.1.17"
-click_captcha = { version = "0.1.32", features = ["ico_li", "make", "webp"] }
+click_captcha = { version = "0.1.34", features = ["ico_li", "make", "webp"] }
 pc = "0.1.12"
 rand = "0.9.0"
 xbin = "0.1.6"
