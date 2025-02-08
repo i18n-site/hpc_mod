@@ -11,7 +11,7 @@ keywords = ["hpc", "mod"]
 [dependencies]
 aok = "0.1.17"
 iat = { version = "0.1.0", path = "../../lib/iat" }
-req_ = { version = "0.1.27", features = ["set_header"] }
+req_ = { version = "0.1.29", features = ["set_header"] }
 tracing = "0.1.41"
 
 [dev-dependencies]
